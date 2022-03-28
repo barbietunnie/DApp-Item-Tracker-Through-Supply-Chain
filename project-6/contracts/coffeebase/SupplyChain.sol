@@ -191,12 +191,13 @@ contract SupplyChain {
   // Call modifier to check if upc has passed previous supply chain stage
   harvested(_upc)
   // Call modifier to verify caller of this function
-  // verifyCaller()
+  verifyCaller(msg.sender)
   {
     // Update the appropriate fields
+    items[_upc].itemState = State.Processed;
     
     // Emit the appropriate event
-    
+    emit Processed(_upc);
   }
 
   // Define a function 'packItem' that allows a farmer to mark an item 'Packed'
