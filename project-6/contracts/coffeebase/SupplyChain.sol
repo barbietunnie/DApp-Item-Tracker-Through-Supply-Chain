@@ -235,7 +235,7 @@ contract SupplyChain {
         items[_upc].itemState = State.ForSale;
 
         // Emit the appropriate event
-        emit Sold(_upc);
+        emit ForSale(_upc);
     }
 
     // Define a function 'buyItem' that allows the disributor to mark an item 'Sold'
