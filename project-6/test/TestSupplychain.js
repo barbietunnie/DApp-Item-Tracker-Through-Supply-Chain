@@ -314,6 +314,4 @@ contract('SupplyChain', function(accounts) {
         // Verify the result set:
         
     })
-
 });
-
