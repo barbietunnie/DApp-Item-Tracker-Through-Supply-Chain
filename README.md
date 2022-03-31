@@ -100,6 +100,10 @@ In a separate terminal window, launch the DApp:
 npm run dev
 ```
 
+### Testing in the browser
+
+Based on the facilities currently provided by the web app, there is no way to create different roles at the moment, so the roles that were automatically created during deployment by the first account / deploy account should be used to perform the test, as a role has been created for each scenario you will encounter.
+
 ## Built With
 
 * [Ethereum](https://www.ethereum.org/) - Ethereum is a decentralized platform that runs smart contracts
