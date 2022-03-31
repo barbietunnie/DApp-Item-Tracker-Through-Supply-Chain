@@ -21,6 +21,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 Please make sure you've already installed ganache-cli, Truffle and enabled MetaMask extension in your browser.
 
+Node: 10.24.1
+Truffle: 5.0.2
+Solidity: 0.5.1
+Web3: 0.20.6
+
 ```
 Give examples (to be clarified)
 ```
@@ -43,6 +48,9 @@ Change directory to ```project-6``` folder and install all requisite npm package
 cd project-6
 npm install
 ```
+
+Create the secret files `.secret` and `.infura` in `project-6` folder to hold your truffle mnemonic and infura api keys respectively.
+
 
 Launch Ganache:
 
