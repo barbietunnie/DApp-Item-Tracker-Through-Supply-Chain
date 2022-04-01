@@ -4,7 +4,7 @@ This repository contains an Ethereum DApp that demonstrates a Supply Chain flow 
 
 ## UML
 
-Here is the ![UML document](docs/UML_-_Tracking_Items_through_Supply_Chain.pdf) that provides details regarding the application design.
+Here is the [UML document](docs/UML_-_Tracking_Items_through_Supply_Chain.pdf) that provides details regarding the application design.
 
 ## Preview
 
